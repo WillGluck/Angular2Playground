@@ -1,0 +1,41 @@
+{
+  "projects": {
+    "default": "react-redux-firebase",
+    "master": "react-redux-firebase",
+    "prod": "react-redux-firebase"
+  },
+  "ci": {
+    "createConfig": {
+      "master": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyBQcIBZyyW29Y2BR3EnJEiaVGAkcBjVGuo",
+          "authDomain": "react-redux-firebase.firebaseapp.com",
+          "databaseURL": "https://react-redux-firebase.firebaseio.com",
+          "projectId": "react-redux-firebase",
+          "storageBucket": "react-redux-firebase.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      },
+      "prod": {
+        "env": "production",
+        "firebase": {
+          "apiKey": "AIzaSyBQcIBZyyW29Y2BR3EnJEiaVGAkcBjVGuo",
+          "authDomain": "react-redux-firebase.firebaseapp.com",
+          "databaseURL": "https://react-redux-firebase.firebaseio.com",
+          "projectId": "react-redux-firebase",
+          "storageBucket": "react-redux-firebase.appspot.com"
+        },
+        "reduxFirebase": {
+          "userProfile": "users",
+          "enableLogging": false,
+          "updateProfileOnLogin": false
+        }
+      }
+    }
+  }
+}
