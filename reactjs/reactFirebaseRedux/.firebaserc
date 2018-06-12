@@ -2,7 +2,8 @@
   "projects": {
     "default": "react-redux-firebase",
     "master": "react-redux-firebase",
-    "prod": "react-redux-firebase"
+    "prod": "react-redux-firebase",
+    "test": "react-redux-firebase-98cd3"
   },
   "ci": {
     "createConfig": {
